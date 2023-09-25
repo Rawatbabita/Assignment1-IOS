@@ -30,12 +30,27 @@ class ViewController: UIViewController {
     
     @IBAction func FetchBreakingBadQuotes(_ sender: UIButton) {
         sender.isEnabled = false
+        Task{
+            do{
+                print(try await BreakingBad_Helper.fetchQuoteData())
+                sender.isEnabled = true
+            } catch let err{
+                print("There was an error with the Lucifer API: \(err)")
+            }
+        }
     }
     
     
     @IBAction func FetchStrangerThingsQuotes(_ sender: UIButton) {
         sender.isEnabled = false
-    
+         Task{
+            do{
+                print(try await StrangerThings_Helper.fetchQuoteData())
+                sender.isEnabled = true
+            } catch let err{
+                print("There was an error with the Lucifer API: \(err)")
+            }
+        }
     }
 
 }
