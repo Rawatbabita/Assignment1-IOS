@@ -28,16 +28,16 @@
                                     <action selector="FetchLuciferQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMN-h0-pow"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UT-er-1hy">
-                                <rect key="frame" x="34" y="475" width="332" height="58"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SU-Wd-bhu">
+                                <rect key="frame" x="30" y="402" width="332" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Stranger Things Quotes">
+                                <buttonConfiguration key="configuration" style="filled" title="Breaking Bad Quotes">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="FetchStrangerThingsQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSK-ra-uRB"/>
+                                    <action selector="FetchBreakingBadQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y7c-10-E83"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="API Integration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AC-Lu-kGq">
@@ -47,16 +47,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SU-Wd-bhu">
-                                <rect key="frame" x="34" y="402" width="332" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UT-er-1hy">
+                                <rect key="frame" x="30" y="471" width="332" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Breaking Bad Quotes">
+                                <buttonConfiguration key="configuration" style="filled" title="Stranger Things Quotes">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
-                                    <color key="baseBackgroundColor" systemColor="systemMintColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="FetchBreakingBadQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y7c-10-E83"/>
+                                    <action selector="FetchStrangerThingsQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dSK-ra-uRB"/>
                                 </connections>
                             </button>
                         </subviews>
