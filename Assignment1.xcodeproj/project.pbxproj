@@ -16,6 +16,9 @@
 		2E48D14F2AC2256600601A36 /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D14E2AC2256600601A36 /* Assignment1Tests.swift */; };
 		2E48D1592AC2256600601A36 /* Assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D1582AC2256600601A36 /* Assignment1UITests.swift */; };
 		2E48D15B2AC2256600601A36 /* Assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D15A2AC2256600601A36 /* Assignment1UITestsLaunchTests.swift */; };
+		2E48D1682AC2283A00601A36 /* LuciferAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D1672AC2283A00601A36 /* LuciferAPI_Helper.swift */; };
+		2E48D16A2AC2285200601A36 /* BreakingBadAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D1692AC2285200601A36 /* BreakingBadAPI_Helper.swift */; };
+		2E48D16C2AC2286900601A36 /* StrangerThingsAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48D16B2AC2286900601A36 /* StrangerThingsAPI_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2E48D1542AC2256600601A36 /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E48D1582AC2256600601A36 /* Assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITests.swift; sourceTree = "<group>"; };
 		2E48D15A2AC2256600601A36 /* Assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E48D1672AC2283A00601A36 /* LuciferAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuciferAPI_Helper.swift; sourceTree = "<group>"; };
+		2E48D1692AC2285200601A36 /* BreakingBadAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadAPI_Helper.swift; sourceTree = "<group>"; };
+		2E48D16B2AC2286900601A36 /* StrangerThingsAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangerThingsAPI_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				2E48D1402AC2256500601A36 /* Assets.xcassets */,
 				2E48D1422AC2256500601A36 /* LaunchScreen.storyboard */,
 				2E48D1452AC2256500601A36 /* Info.plist */,
+				2E48D1672AC2283A00601A36 /* LuciferAPI_Helper.swift */,
+				2E48D1692AC2285200601A36 /* BreakingBadAPI_Helper.swift */,
+				2E48D16B2AC2286900601A36 /* StrangerThingsAPI_Helper.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E48D16A2AC2285200601A36 /* BreakingBadAPI_Helper.swift in Sources */,
 				2E48D13C2AC2256400601A36 /* ViewController.swift in Sources */,
+				2E48D1682AC2283A00601A36 /* LuciferAPI_Helper.swift in Sources */,
+				2E48D16C2AC2286900601A36 /* StrangerThingsAPI_Helper.swift in Sources */,
 				2E48D1382AC2256400601A36 /* AppDelegate.swift in Sources */,
 				2E48D13A2AC2256400601A36 /* SceneDelegate.swift in Sources */,
 			);

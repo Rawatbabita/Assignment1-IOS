@@ -15,5 +15,28 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func FetchLuciferQuotes(_ sender: UIButton) {
+        sender.isEnabled = false
+        Task{
+            do{
+                print(try await LuciferAPI_Helper.fetchQuoteData())
+                sender.isEnabled = true
+            } catch let err{
+                print("There was an error with the Lucifer API: \(err)")
+            }
+        }
+    }
+    
+    
+    @IBAction func FetchBreakingBadQuotes(_ sender: UIButton) {
+        sender.isEnabled = false
+    }
+    
+    
+    @IBAction func FetchStrangerThingsQuotes(_ sender: UIButton) {
+        sender.isEnabled = false
+    
+    }
+
 }
 
